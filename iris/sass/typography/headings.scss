@@ -1,0 +1,107 @@
+//Positions
+.text-center{
+  text-align: center !important;
+}
+.text-start{
+  text-align: start !important;
+}
+.text-end{
+  text-align: end !important;
+}
+.text-justify{
+text-align: justify !important;
+}
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0% 0% 1.5% 0%;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin: 0% 0% 1.5% 0%;
+  font-weight: 700;
+}
+
+.h1 {
+  font-size: 2rem;
+}
+.h2 {
+  font-size: 1.5rem;
+}
+.h3 {
+  font-size: 1.17rem;
+}
+.h4 {
+  font-size: 1rem;
+}
+.h5 {
+  font-size: 0.83rem;
+}
+.h6 {
+  font-size: 0.67rem;
+}
+
+// paragraph
+p{
+  line-height: 125%;
+}
+
+//size
+.text-xsm{
+  font-size: .5rem !important;
+}
+.text-sm{
+  font-size: .75rem !important;
+}
+.text-rg{
+  font-size: 1rem !important;
+}
+.text-xl{
+  font-size: 2rem !important;
+}
+.text-xxl{
+  font-size: 3rem !important;
+}
+// Font styles
+
+.disabled{
+  color: $disabled
+}
+.text-reset{
+  color: inherit;
+  font-size: 1rem;
+  font-weight: inherit;
+  line-height: inherit;
+  margin: inherit;
+}
+b, strong, .text-b{
+  font-weight: 700;
+}
+i, .text-i{
+  font-style: italic;
+}
+u, .text-u{
+  text-decoration: underline;
+}
+del, .text-d{
+  text-decoration: line-through;
+}
+a,
+text-a{
+  
+}
+.up-case{
+  text-transform: uppercase;
+}
+.low-case{
+  text-transform: lowercase;
+}
