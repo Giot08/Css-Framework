@@ -1,3 +1,4 @@
+@charset "UTF-8";
 button, hr, input {
   overflow: visible;
 }
@@ -147,6 +148,62 @@ summary {
   font-family: "Segoe UI", sans-serif;
 }
 
+.text-primary {
+  color: #3498db !important;
+}
+
+.text-secondary {
+  color: #2c3e50 !important;
+}
+
+.text-success {
+  color: #2ecc71 !important;
+}
+
+.text-danger {
+  color: #c0392b !important;
+}
+
+.text-warning {
+  color: #f1c40f !important;
+}
+
+.text-light {
+  color: #ecf0f1 !important;
+}
+
+.text-dark {
+  color: #2d3436 !important;
+}
+
+.bg-primary {
+  color: #3498db !important;
+}
+
+.bg-secondary {
+  color: #2c3e50 !important;
+}
+
+.bg-success {
+  color: #2ecc71 !important;
+}
+
+.bg-danger {
+  color: #c0392b !important;
+}
+
+.bg-warning {
+  color: #f1c40f !important;
+}
+
+.bg-light {
+  color: #ecf0f1 !important;
+}
+
+.bg-dark {
+  color: #2d3436 !important;
+}
+
 .text-center {
   text-align: center !important;
 }
@@ -170,7 +227,7 @@ h4,
 h5,
 h6,
 p {
-  margin: 0% 0% 1.5% 0%;
+  margin: 0% 0% 0.5% 0%;
 }
 
 .h1,
@@ -179,7 +236,7 @@ p {
 .h4,
 .h5,
 .h6 {
-  margin: 0% 0% 1.5% 0%;
+  margin: 0% 0% 0.5% 0%;
   font-weight: 700;
 }
 
@@ -232,10 +289,11 @@ p {
 }
 
 .disabled {
-  color: #b8b7a7;
+  color: #95a5a6;
 }
 
 .text-reset {
+  background-color: inherit;
   color: inherit;
   font-size: 1rem;
   font-weight: inherit;
@@ -243,20 +301,37 @@ p {
   margin: inherit;
 }
 
-b, strong, .text-b {
+b,
+strong,
+.text-b {
   font-weight: 700;
 }
 
-i, .text-i {
+i,
+.text-i {
   font-style: italic;
 }
 
-u, .text-u {
+u,
+.text-u {
   text-decoration: underline;
 }
 
-del, .text-d {
+del,
+.text-d {
   text-decoration: line-through;
+}
+
+a,
+.text-a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover,
+.text-a:hover {
+  color: #2c81ba;
 }
 
 .up-case {
@@ -265,6 +340,47 @@ del, .text-d {
 
 .low-case {
   text-transform: lowercase;
+}
+
+abbr {
+  cursor: help;
+}
+
+blockquote p {
+  background-color: #ecf0f1;
+  font-style: italic;
+}
+
+blockquote p::before {
+  content: '"';
+}
+
+blockquote p::after {
+  content: '"';
+}
+
+.blockquote {
+  background-color: #ecf0f1;
+  margin: 0 1.5%;
+}
+
+figcaption::before {
+  content: "—";
+}
+
+figcaption {
+  text-align: right;
+  color: #95a5a6;
+  font-size: 0.9rem;
+}
+
+ul {
+  margin-left: 5.5%;
+  list-style: none;
+}
+
+ol {
+  margin-left: 5.5%;
 }
 
 /*# sourceMappingURL=style.css.map */

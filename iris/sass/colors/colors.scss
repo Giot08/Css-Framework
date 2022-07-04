@@ -1,2 +1,72 @@
-$primary: #00bcd4;
-$disabled: #b8b7a7;
+//Base Colors
+$primary: #3498db;
+$secondary: #2c3e50;
+$success: #2ecc71;
+$danger: #c0392b;
+$warning: #f1c40f;
+$info: #74b9ff;
+$light: #ecf0f1;
+$dark: #2d3436;
+$disabled: #95a5a6;
+//Hover Colors
+$primary-hover: #52a7e0;
+$secondary-hover: #4b5b6a;
+$success-hover: #4dd486;
+$danger-hover: #c9574b;
+$warning-hover: #f3cd33;
+$info-hover: #89c3ff;
+$light-hover: #eff2f3;
+$dark-hover: #4c5254;
+//Shadow Colors
+$primary-shadow: #2c81ba;
+$secondary-shadow: #253544;
+$success-shadow: #27ae60;
+$danger-shadow: #a33125;
+$warning-shadow: #cda70d;
+$info-shadow: #639dd9;
+$light-shadow: #c9cccd;
+$dark-shadow: #262c2e;
+//Text Colors
+.text-primary{
+    color: $primary !important;
+}
+.text-secondary{
+    color: $secondary !important;
+}
+.text-success{
+    color: $success !important;
+}
+.text-danger{
+    color: $danger !important;
+}
+.text-warning{
+    color: $warning !important;
+}
+.text-light{
+    color: $light !important;
+}
+.text-dark{
+    color: $dark !important;
+}
+//Background
+.bg-primary{
+    color: $primary !important;
+}
+.bg-secondary{
+    color: $secondary !important;
+}
+.bg-success{
+    color: $success !important;
+}
+.bg-danger{
+    color: $danger !important;
+}
+.bg-warning{
+    color: $warning !important;
+}
+.bg-light{
+    color: $light !important;
+}
+.bg-dark{
+    color: $dark !important;
+}
